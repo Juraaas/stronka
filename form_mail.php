@@ -13,7 +13,7 @@ if(isset($_POST['wyslij'])){
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'kierozoid@gmail.com';
-    $mail->Password = 'wzseiskywebijgpa';
+    $mail->Password = '';
     $mail->SMTPSecure = 'ssl';
 
     $mail->setForm('kierozoid@gmail.com');
@@ -41,7 +41,7 @@ if(isset($_POST['przypomnij'])){
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'kierozoid@gmail.com';
-    $mail->Password = 'wzseiskywebijgpa';
+    $mail->Password = '';
     $mail->SMTPSecure = 'ssl';
 
     $mail->addAdress($_POST['email']);
